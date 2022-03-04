@@ -465,7 +465,7 @@ img {
   margin-bottom: 1em;
 }
 .article ul {
-  margin: 0;
+  margin: 40px 0;
   padding: 0;
   font-family: "DM Sans", sans-serif;
   color: #424242;
@@ -477,6 +477,22 @@ img {
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 1em;
+}
+
+.coaching .methods .artifacts {
+  float: left;
+  top: -70px;
+  left: 120px;
+}
+.coaching .contact .wrapper {
+  max-width: 640px;
+  text-align: left;
+}
+.coaching .contact .wrapper a {
+  color: #ffc776;
+}
+.coaching .contact .wrapper a:hover {
+  color: #fc9d86;
 }
 
 /*# sourceMappingURL=style.css.map */
