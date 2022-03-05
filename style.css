@@ -196,7 +196,7 @@ img {
 .hero #headerphoto {
   max-width: 100%;
   height: 640px;
-  background-image: url("img/headerphoto@2x.jpg");
+  background-image: url("img/dijk.jpg");
   background-size: cover;
 }
 @media screen and (max-width: 992px) {
@@ -248,7 +248,7 @@ img {
 }
 .vision .artifacts {
   position: relative;
-  top: 60%;
+  top: 50%;
   left: -20%;
 }
 .vision .artifacts .circle {
@@ -301,7 +301,13 @@ img {
 .burnout #burnout {
   margin-top: -60px;
   height: 100%;
-  background-image: url("img/burnout.jpeg");
+  background-image: url("img/bosrug.jpg");
+  background-size: cover;
+}
+.burnout #methodiek {
+  margin-top: -60px;
+  height: 100%;
+  background-image: url("img/bos.jpg");
   background-size: cover;
 }
 
