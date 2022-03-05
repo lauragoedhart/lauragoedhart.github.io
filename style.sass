@@ -293,6 +293,10 @@ img
       &:nth-child(even)
         background-color: $gray-smoke
 
+      td
+        padding-right: 8px
+        word-break: break-all
+
       td:first-child
         border-radius: 4px 0px 0px 4px
         padding-left: 12px
@@ -312,6 +316,17 @@ img
     height: 100%
     background-image: url("img/bos.jpg")
     background-size: cover
+
+  p.mobile
+    display: none
+    margin-bottom: 16px
+
+  @media screen and (max-width: $break-large)
+    td.mobile
+      display: none
+    p.mobile
+      display: block
+
 
 .methods
   padding-bottom: (($gutter)-($paragraph-margin))
