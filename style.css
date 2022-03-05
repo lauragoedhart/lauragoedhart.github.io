@@ -399,12 +399,15 @@ img {
   color: #333;
   padding: 24px;
 }
+<<<<<<< HEAD
 .contact a {
   color: #ffc776;
 }
 .contact a:hover {
   color: #fc9d86;
 }
+=======
+>>>>>>> parent of fd63516 (new photo + hyperlink fix)
 .contact .footer {
   margin-top: 80px;
   margin-bottom: -80px;
